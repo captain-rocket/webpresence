@@ -1,0 +1,87 @@
+body {
+	background: #252525;
+	color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+​
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 992px) {
+	#col-test {
+    border: 5px solid blue;
+}
+  .column {
+    width: 50%;
+  }
+​}
+
+@media screen and (max-width: 600px) {
+	.column {
+    width: 100%;
+  }
+	#test {
+    border: 5px solid red;
+  }
+}
+
+.logo-container {
+	/*width: 660px;
+	margin: 10px 10px 50px 50px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-start;
+	-ms-align-items: flex-end;
+	align-items: flex-end;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;*/
+}
+
+#logo {
+	width: 100%;
+	height: auto;
+	max-width: 200px;
+	margin-right: 5px;
+}
+
+#slogan {
+	font-family: 'Share Tech Mono', monospace;
+	margin: 0;
+	padding: 0;	
+}
+
+#dtp {
+	width: 100%;
+	height: auto;
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: green;	
+}
+
+#mc_embed_signup {
+	background:blue; /*clear:left;*/ font:14px Helvetica,Arial,sans-serif;
+	width: 100%;
+	height: auto;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
