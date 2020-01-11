@@ -4,4 +4,4 @@ Web Presence
 
 This a edit branch
 
-This is fork bootstrap version
+This fork is a bootstrap version
